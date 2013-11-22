@@ -55,7 +55,7 @@ jadephp: {
 
 #### Prettify
 ```js
-cssmin: {
+jadephp: {
   prettify: {
     options: {
       pretty: true
@@ -69,8 +69,8 @@ cssmin: {
 
 #### Compile all contents of a release directory and add a `.phtml` extension
 ```js
-cssmin: {
-  minify: {
+jadephp: {
+  compile: {
     expand: true,
     cwd: 'release/jade/',
     src: ['*.jade'],
@@ -90,4 +90,4 @@ _(Nothing yet)_
 
 Task submitted by [Vinicius Wrubleski](http://www.wrubleski.com.br/)
 
-*This file was generated on Fri Nov 22 2013 19:30:47.*
+*This file was generated on Fri Nov 22 2013 19:34:30.*

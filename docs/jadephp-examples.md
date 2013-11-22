@@ -14,7 +14,7 @@ jadephp: {
 
 ## Prettify
 ```js
-cssmin: {
+jadephp: {
   prettify: {
     options: {
       pretty: true
@@ -28,8 +28,8 @@ cssmin: {
 
 ## Compile all contents of a release directory and add a `.phtml` extension
 ```js
-cssmin: {
-  minify: {
+jadephp: {
+  compile: {
     expand: true,
     cwd: 'release/jade/',
     src: ['*.jade'],
