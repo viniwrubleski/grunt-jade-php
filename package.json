@@ -1,0 +1,35 @@
+{
+  "name": "grunt-jade-php",
+  "version": "0.1.0",
+  "description": "grunt-jade-php",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viniwrubleski/grunt-jade-php.git"
+  },
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "jade",
+    "php"
+  ],
+  "author": "Vinicius Wrubleski <vinicius.wrubleski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viniwrubleski/grunt-jade-php/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-internal": "~0.4.6"
+  },
+  "dependencies": {
+    "jade-php": "~0.1.1",
+    "jade": "~0.35.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  }
+}
